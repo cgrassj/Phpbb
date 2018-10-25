@@ -179,13 +179,16 @@
 		display:inline;
 	}
 
-	.site-description p, .search-header {
+	
+	
+	.search-header {
 		display: none;
 	}
 	
 	.headerbar {
 		height: 60px;
-		background : none;
+		background:url(./images/bg_header_small.png) no-repeat;
+	border-radius: 7px;
 		background-color : #000;
 	}
 

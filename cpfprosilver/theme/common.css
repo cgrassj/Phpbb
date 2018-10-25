@@ -192,6 +192,9 @@ a:hover	{ text-decoration: underline; }
 	display: none;
 }
 
+.site-description p {
+	margin-top: 130px;
+}
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .headerbar {
