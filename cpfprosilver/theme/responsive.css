@@ -176,10 +176,17 @@
 		line-height: 1.2em;
 		overflow: hidden;
 		text-overflow: ellipsis;
+		display:inline;
 	}
 
 	.site-description p, .search-header {
 		display: none;
+	}
+	
+	.headerbar {
+		height: 60px;
+		background : none;
+		background-color : #000;
 	}
 
 	/* Navigation

@@ -189,6 +189,7 @@ a:hover	{ text-decoration: underline; }
 
 .site-description h1 {
 	margin-right: 0;
+	display: none;
 }
 
 /* Round cornered boxes and backgrounds
@@ -196,7 +197,7 @@ a:hover	{ text-decoration: underline; }
 .headerbar {
 	margin-bottom: 4px;
 	padding: 5px;
-	height:160px;
+	height:150px;
 	background:url(./images/bg_header.png) no-repeat;
 	border-radius: 7px;
 }
