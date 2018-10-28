@@ -11,7 +11,7 @@ html, body {
 }
 
 h1 {
-	color: #000000;
+	color: #FFFFFF;
 }
 
 h2 {
@@ -83,15 +83,11 @@ a:hover { color: #b30f38; }
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .headerbar {
-	color: #000000;
+	color: #FFFFFF;
 }
 
 .headerbar, .forumbg {
-	background-color: #cc6400;
 	background-image: url("./images/bg_header.png");
-	background-image: -webkit-linear-gradient(top, #ff7f03, 0%, #a04f00 2px, #ff7f03 92px, #e26f00 100%);
-	background-image: linear-gradient(to bottom, #e26f00, 0%,#a04f00 2px,#e26f00 92px,#e26f00 100%);
-	background-repeat: repeat-x;	
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e26f00', EndColorStr='#e26f00')";
 }
 
@@ -646,14 +642,14 @@ Colours and backgrounds for buttons.css
 }
 
 .pagination li.active span {
-	background: #4692BF;
-	border-color: #4692BF;
+	background: #ff8000;
+	border-color: #ff8000;
 	color: #FFFFFF;
 }
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	background: #368AD2;
-	border-color: #368AD2;
+	background: #ff8000;
+	border-color: #ff8000;
 	filter: none;
 	color: #FFFFFF;
 	text-shadow: none;

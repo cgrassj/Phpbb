@@ -590,3 +590,17 @@
     	width: 80px;
 	}
 }
+
+/* style the hat */
+@media screen and (max-width: 700px) {
+.hat {
+	background: url("./images/pumpkin.png");
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	z-index: 1;
+	margin-left: -5px;
+	margin-top: 40px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
